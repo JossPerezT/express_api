@@ -1,0 +1,27 @@
+{
+  "name": "express_api",
+  "version": "1.0.0",
+  "description": "Proyecto 7 de la semana 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JossPerezT/express_api.git"
+  },
+  "author": "jocelynperez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JossPerezT/express_api/issues"
+  },
+  "homepage": "https://github.com/JossPerezT/express_api#readme",
+  "devDependencies": {
+    "jest": "^28.0.3",
+    "supertest": "^6.2.3"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
