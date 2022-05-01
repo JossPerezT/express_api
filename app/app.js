@@ -17,6 +17,13 @@ app.get('/v1/explorers', (req, res) =>{
     res.status(200).json(explorers) // Agregando código HTTP CODE 200 en el request
 })
 
+app.get('/v1/explorers/:id', (req, res) =>{
+    console.log(`API Explorers GET request ${new Date()}`)
+    console.log(`Getting explorer with id ${req.params.id}`)
+    const explorer = {id: 1, name: "Joss"}
+    res.status(200).json(explorer)
+})
+
 app.listen(port, ()=>{
     console.log (`Example app listenig on port ${port}`)
 })
