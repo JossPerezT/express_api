@@ -48,3 +48,6 @@ app.delete(`/v1/explorers/:id`, (req, res) =>{
 app.listen(port, ()=>{
     console.log (`Example app listenig on port ${port}`)
 })
+
+
+module.exports = app
